@@ -1,0 +1,15 @@
+name = Google Plus One +1
+description = Adds Google +1 button to the nodes.
+core = 7.x
+
+files[] = google_plusone.module
+files[] = google_plusone.install
+files[] = google_plusone.admin.inc
+
+configure = admin/config/services/google-plusone
+; Information added by drupal.org packaging script on 2011-07-06
+version = "7.x-1.0-beta4"
+core = "7.x"
+project = "google_plusone"
+datestamp = "1307209015"
+
